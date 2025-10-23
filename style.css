@@ -1,0 +1,53 @@
+/* Aplicando estilos globais */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f2f5; /* Um cinza bem claro */
+    color: #333;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Estilizando o contêiner principal */
+main {
+    max-width: 600px;
+    margin: 20px auto; /* Centraliza na página */
+    padding: 20px;
+    background-color: #ffffff; /* Fundo branco */
+    border-radius: 8px; /* Cantos arredondados */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Uma sombra leve */
+}
+
+h1, h2 {
+    color: #007BFF; /* Um azul */
+}
+
+/* Estilizando o botão */
+button {
+    background-color: #007BFF; /* Mesmo azul */
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer; /* Muda o mouse para "mãozinha" */
+    font-size: 16px;
+}
+
+/* Efeito simples ao passar o mouse */
+button:hover {
+    background-color: #0056b3; /* Azul mais escuro */
+}
+
+/* Estilizando a área de dados */
+#dados-api {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #e9ecef; /* Um cinza mais escuro */
+    border-radius: 5px;
+}
+
+/* Estilizando os spans que vão receber os dados */
+#dados-api span {
+    font-weight: bold;
+    color: #d9534f; /* Um vermelho/vinho */
+}
